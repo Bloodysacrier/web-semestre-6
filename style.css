@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* LADO IZQUIERDO */
+.login-image {
+    flex: 1;
+    background: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.login-image h1 {
+    font-size: 48px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+/* LADO DERECHO */
+.login-form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+/* FORMULARIO */
+form {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Olvidé contraseña */
+.forgot-password {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+/* BOTÓN */
+.btn-1 {
+    width: 100%;
+    padding: 12px;
+    background: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-1:hover {
+    background: #364fc7;
+}
